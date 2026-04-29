@@ -1,0 +1,16 @@
+remote_theme: just-the-docs/just-the-docs
+
+title: BatchCompress Image
+description: Documentation for BatchCompress Image - local batch image compression with preview, format conversion, and quality control.
+
+color_scheme: light
+
+nav_sort: order
+
+logo: "https://3thousand30.github.io/batchcompressimage-docs/assets/images/logo.jpg"
+
+
+footer_content: >
+  &copy; 2026 <a href="https://3thousand30.com">3thousand30</a> &mdash;
+  <a href="https://github.com/3thousand30/batchcompressimage-docs/issues">Support</a>
+
