@@ -8,6 +8,8 @@ nav_order: 1
 
 **BatchCompress Image** is a Windows desktop app by [3thousand30](https://3thousand30.com) that compresses batches of images locally with adjustable quality, output format conversion, metadata control, and a live preview.
 
+[Get it on Microsoft Store](https://apps.microsoft.com/detail/9n1dbc2g87ht){: .btn .btn-blue }
+
 Point it at a folder. Tune the settings. Preview the result. Click Compress.
 
 
