@@ -42,6 +42,8 @@ The preview is a reduced-resolution proof designed to help you judge settings qu
 
 Use it to evaluate quality direction, visible artifacts, and format behavior before the full run.
 
+The **Preview estimate** is also only an estimate based on the currently selected sample file. The final batch summary may show a different total reduction across the whole folder.
+
 ---
 
 ## Output images are still too large
@@ -52,6 +54,7 @@ Try one or more of these:
 - Convert photographic images to **WebP** instead of PNG
 - Use **JPG** instead of **Same as Input** if the source folder contains many PNG or TIFF files
 - Turn on **Strip EXIF metadata** if embedded metadata is unnecessary
+- Check the preview estimate before running and compare it with the final batch summary afterward
 
 ---
 
@@ -68,6 +71,8 @@ That usually means compression is too aggressive for the content.
 ## The app reports errors for some files
 
 Open the **Activity Logs** panel to see the filename and error.
+
+The log also shows per-file successes, skipped files, and the final batch summary, which makes it easier to spot whether the problem affected one file or the whole run.
 
 Common causes:
 
@@ -87,4 +92,4 @@ The **Open Output Folder** button uses Windows Explorer. If Explorer does not op
 
 ## Still stuck?
 
-Email [hello@3thousand30.com](mailto:hello@3thousand30.com) or [open an issue](https://github.com/3thousand30/batchcompressimage-docs/issues) on GitHub.
+Use the app's **Feedback & support** menu to email [hello@3thousand30.com](mailto:hello@3thousand30.com), or [open an issue](https://github.com/3thousand30/batchcompressimage-docs/issues) on GitHub.

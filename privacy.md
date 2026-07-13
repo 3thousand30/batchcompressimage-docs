@@ -6,7 +6,7 @@ nav_order: 6
 
 # Privacy Policy
 
-**Last updated: April 2026**
+**Last updated: July 2026**
 
 BatchCompress Image is developed by [3thousand30](https://3thousand30.com).
 

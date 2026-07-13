@@ -12,12 +12,12 @@ BatchCompress Image can keep the original format of each file or convert the bat
 
 ## Same as Input (default)
 
-Keeps each image in its original format.
+Keeps each image in its original format where practical.
 
 - JPG stays JPG
 - PNG stays PNG
 - WebP stays WebP
-- TIFF stays TIFF
+- TIFF input is flattened to JPG output
 
 **Use this when:** You want the simplest workflow and do not need a format conversion.
 
@@ -80,9 +80,9 @@ WebP is a modern format that often compresses better than JPG at similar visual 
 
 | | Same as Input | JPG | PNG | WebP |
 |---|---|---|---|---|
-| Compression | Original | Lossy | Lossless | Usually lossy |
+| Compression | Follows source/output rules | Lossy | Lossless | Usually lossy |
 | Transparency | Original | No | Yes | Yes |
-| File size | Original | Small | Large | Smallest in many cases |
+| File size | Often reduced | Small | Large | Smallest in many cases |
 | Best for | Simple batch runs | Photos | Graphics / text / transparency | Web and compact archives |
 
 ---
@@ -91,4 +91,4 @@ WebP is a modern format that often compresses better than JPG at similar visual 
 
 BatchCompress Image accepts **TIFF** as an input format, but there is no direct TIFF output button.
 
-If you choose **Same as Input**, TIFF files remain TIFF. If you choose **JPG**, **PNG**, or **WebP**, TIFF files are converted to that format.
+If you choose **Same as Input**, TIFF files are exported as **JPG**. If you choose **JPG**, **PNG**, or **WebP**, TIFF files are converted to that selected format.

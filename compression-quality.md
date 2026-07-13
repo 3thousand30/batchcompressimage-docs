@@ -57,7 +57,7 @@ When quality is too low, you may notice:
 - Text or UI elements becoming fuzzy
 - Banding in gradients or skies
 
-The live preview is the fastest way to catch these issues before you process the whole batch.
+The live preview is the fastest way to catch these issues before you process the whole batch. The preview estimate also gives you a quick size comparison before you commit.
 
 ---
 
@@ -77,4 +77,4 @@ These often look worse at low JPG quality because hard edges show artifacts quic
 
 Different images react differently to the same quality value. A portrait with a soft background may still look excellent at 70, while a screenshot full of fine text may look poor even at 90.
 
-BatchCompress Image previews one file from the folder using your current settings so you can tune the tradeoff before running the full batch.
+BatchCompress Image previews one file from the folder using your current settings so you can tune the tradeoff before running the full batch. After the batch finishes, the app also shows final size results so you can judge whether the chosen quality was worth it.

@@ -39,6 +39,8 @@ You can keep each file in its original format or convert the whole batch.
 
 See [Output Formats](output-formats) for the details.
 
+Note: TIFF input is supported, but TIFF files are exported as **JPG** when you choose **Same as Input**.
+
 ---
 
 ## 4. Set compression quality
@@ -90,6 +92,8 @@ The preview panel shows a sample image from the selected folder using your curre
 
 Use **Previous**, **Next**, and **Refresh** to inspect other files before running the full batch.
 
+If the selected sample can be previewed, the panel also shows a **Preview estimate** line so you can see the likely size change before processing the whole folder.
+
 ---
 
 ## 8. Compress the folder
@@ -100,15 +104,20 @@ While running:
 - A progress bar shows overall completion
 - The current filename is displayed
 - You can cancel the batch at any time
-- Errors are logged in the **Activity Logs** panel
+- The **Activity Logs** panel records per-file success, skipped files, and errors
 
-When the run finishes, click **Open Output Folder** to see the results.
+When the run finishes:
+
+- Review the final summary line for original size, final size, and total bytes saved
+- Open **Activity Logs** if you want the detailed per-file history
+- Click **Open Output Folder** to see the results
 
 ---
 
 ## Tips
 
 - Start with **80% quality** and preview a few representative files before compressing a large folder
+- Use the preview estimate as a quick sanity check before you commit the whole folder
 - Use **PNG** for screenshots, UI captures, logos, or text-heavy graphics
 - Use **JPG** or **WebP** for photographic content
 - Turn on **Skip already compressed files** if you are retrying a partially completed batch
