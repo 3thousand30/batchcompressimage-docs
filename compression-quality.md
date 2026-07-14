@@ -43,7 +43,7 @@ If you switch output to **PNG**, the app disables the quality slider because PNG
 | **65-79** | Stronger compression when file size matters |
 | **1-64** | Aggressive compression, usually only for throwaway previews or web thumbnails |
 
-The default value in BatchCompress Image is **80**.
+The default value in Batch Compress Image is **80**.
 
 ---
 
@@ -77,4 +77,4 @@ These often look worse at low JPG quality because hard edges show artifacts quic
 
 Different images react differently to the same quality value. A portrait with a soft background may still look excellent at 70, while a screenshot full of fine text may look poor even at 90.
 
-BatchCompress Image previews one file from the folder using your current settings so you can tune the tradeoff before running the full batch. After the batch finishes, the app also shows final size results so you can judge whether the chosen quality was worth it.
+Batch Compress Image previews one file from the folder using your current settings so you can tune the tradeoff before running the full batch. After the batch finishes, the app also shows final size results so you can judge whether the chosen quality was worth it.

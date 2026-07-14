@@ -12,7 +12,7 @@ This guide walks you through compressing your first batch of images.
 
 ## 1. Install the app
 
-Download and install **BatchCompress Image** from the Microsoft Store. Once installed, launch it from the Start menu.
+Download and install **Batch Compress Image** from the Microsoft Store. Once installed, launch it from the Start menu.
 
 ---
 

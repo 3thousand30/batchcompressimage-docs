@@ -6,7 +6,7 @@ nav_order: 4
 
 # Output Formats
 
-BatchCompress Image can keep the original format of each file or convert the batch to JPG, PNG, or WebP.
+Batch Compress Image can keep the original format of each file or convert the batch to JPG, PNG, or WebP.
 
 ---
 
@@ -89,6 +89,6 @@ WebP is a modern format that often compresses better than JPG at similar visual 
 
 ## What about TIFF?
 
-BatchCompress Image accepts **TIFF** as an input format, but there is no direct TIFF output button.
+Batch Compress Image accepts **TIFF** as an input format, but there is no direct TIFF output button.
 
 If you choose **Same as Input**, TIFF files are exported as **JPG**. If you choose **JPG**, **PNG**, or **WebP**, TIFF files are converted to that selected format.

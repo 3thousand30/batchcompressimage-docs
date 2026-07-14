@@ -8,7 +8,7 @@ nav_order: 6
 
 **Last updated: July 2026**
 
-BatchCompress Image is developed by [3thousand30](https://3thousand30.com).
+Batch Compress Image is developed by [3thousand30](https://3thousand30.com).
 
 ---
 
@@ -25,7 +25,7 @@ BatchCompress Image is developed by [3thousand30](https://3thousand30.com).
 
 ## What happens on your device
 
-BatchCompress Image processes your images locally on your Windows device and writes the results to folders on your machine.
+Batch Compress Image processes your images locally on your Windows device and writes the results to folders on your machine.
 
 Your source images are not uploaded to 3thousand30 servers for compression.
 
